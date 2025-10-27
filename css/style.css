@@ -1,0 +1,106 @@
+/* =========================
+   STYLE.CSS UNTUK WEBSITE LIRIK PROFESIONAL
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#songContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* CARD LAGU */
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* LINK & SHARE BUTTON */
+.card a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+button.share-btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.share-btn:hover {
+    background-color: #1666c1;
+}
+
+/* Lirik Lagu */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* RESPONSIVE UNTUK HP */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
