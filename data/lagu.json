@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "judul": "Bintang Kehidupan",
+    "penyanyi": "Nike Ardilla",
+    "lirik": "Bintang kehidupan bersinar terang\nMenyinari hatiku...",
+    "cover": "img/cover1.jpg"
+  },
+  {
+    "id": 2,
+    "judul": "Separuh Nafas",
+    "penyanyi": "Dewa 19",
+    "lirik": "Separuh nafasku hilang saat kau pergi...\nAku tetap menunggu...",
+    "cover": "img/cover2.jpg"
+  },
+  {
+    "id": 3,
+    "judul": "Cinta Sejati",
+    "penyanyi": "Bunga Citra Lestari",
+    "lirik": "Cinta sejati takkan pernah pergi\nSelalu ada di hati...",
+    "cover": "img/cover3.jpg"
+  },
+  {
+    "id": 4,
+    "judul": "Kisah Cintaku",
+    "penyanyi": "Chrisye",
+    "lirik": "Kisah cintaku takkan terlupa\nMeski waktu terus berjalan...",
+    "cover": "img/cover4.jpg"
+  },
+  {
+    "id": 5,
+    "judul": "Pernah Muda",
+    "penyanyi": "Gamaliel Audrey Cantika",
+    "lirik": "Pernah muda, pernah jatuh cinta\nKenangan takkan terganti...",
+    "cover": "img/cover5.jpg"
+  }
+]
